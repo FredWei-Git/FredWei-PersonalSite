@@ -1,0 +1,10 @@
+body {
+    background-color: aquamarine;
+}
+
+/* Flexbox Layout */
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
