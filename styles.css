@@ -2,9 +2,21 @@ body {
     background-color: aquamarine;
 }
 
+main {
+    padding-top: 100px;
+}
+
 /* Flexbox Layout */
 .flex-container {
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.flex-container > h1 {
+    padding-top: 100px;
+}
+
+.flex-container > section{
+    justify-content: center;
 }
