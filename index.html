@@ -13,7 +13,7 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" style="z-index: 1;">
+        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">Fred Wei</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -43,24 +43,29 @@
 
     <main>
         <div class="container">
-            <div class="row">
-                <section id="about">
-                    Hi there! 👋 I'm Fred, a Software Engineering graduate from the University of Ottawa.
-                    I'm passionate about crafting elegant solutions to complex
-                    problems and turning innovative ideas into reality.
-                    Feel free to explore my portfolio and connect with me!
-                    I'm always excited to collaborate and discuss new opportunities.
-                </section>
+            <div class="row" id="about">
+                <div class="col">
+                    <h1 id="about-header">About Me</h1>
+                </div>
+                <div class="col">
+                    <section>
+                        Hi there! 👋 I'm Fred, a Software Engineering graduate from the University of Ottawa.
+                        I'm passionate about crafting elegant solutions to complex
+                        problems and turning innovative ideas into reality.
+                        Feel free to explore my portfolio and connect with me!
+                        I'm always excited to collaborate and discuss new opportunities.
+                    </section>
+                </div>
             </div>
-            <div class="row">
-                <h1 id="experience">Experience</h1>
+            <div class="row" id="experience">
+                <h1>Experience</h1>
                 <section>
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Cisco - Software Engineer Intern</h5>
                             <h6 class="card-subtitle text-muted">Ottawa, ON</h6>
                             <h6 class="card-subtitle text-muted">May 2023 - Sept 2023</h6>
-                            This is some text within a card body.
+                            Technologies Used: Python, JavaScript, jQuery (DataTables plug-in), Bootstrap
                         </div>
                     </div>
                     <br>
@@ -69,7 +74,7 @@
                             <h5 class="card-title">FISPAN - Software Developer Intern</h5>
                             <h6 class="card-subtitle text-muted">Vancouver, BC</h6>
                             <h6 class="card-subtitle text-muted">May 2022 - Aug 2022</h6>
-                            This is some text within a card body.
+                            Technologies Used: Spring Boot (Kotlin, Java), React, MongoDB, Kotest
                         </div>
                     </div>
                     <br>
@@ -78,7 +83,7 @@
                             <h5 class="card-title">Canadian Bank Note Company, Limited - Software Developer Intern</h5>
                             <h6 class="card-subtitle text-muted">Ottawa, ON</h6>
                             <h6 class="card-subtitle text-muted">Sept 2021 - Dec 2021</h6>
-                            This is some text within a card body.
+                            Technologies Used: Spring Boot (Kotlin, Java), Android Studio
                         </div>
                     </div>
                     <br>
@@ -87,7 +92,7 @@
                             <h5 class="card-title">Department of National Defence - Software Engineer Intern</h5>
                             <h6 class="card-subtitle text-muted">Ottawa, ON</h6>
                             <h6 class="card-subtitle text-muted">Jan 2021 - Apr 2021</h6>
-                            This is some text within a card body.
+                            Technologies Used: Unity, C#
                         </div>
                     </div>
                     <br>
@@ -96,25 +101,50 @@
                             <h5 class="card-title">HCE4 - Web Developer Intern</h5>
                             <h6 class="card-subtitle text-muted">Toronto, ON</h6>
                             <h6 class="card-subtitle text-muted">June 2020 - Sept 2020</h6>
-                            This is some text within a card body.
+                            Technologies Used: Wix, HTML, CSS
                         </div>
                     </div>
                 </section>
             </div>
-            <div class="row">
-                <h1 id="projects">Projects</h1>
+            <div class="row" id="projects">
+                <h1>Projects</h1>
                 <section>
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Cisco</h5>
-                            This is some text within a card body.
+                            <h5 class="card-title">Umple: Python Generation Features</h5>
+                            Technologies Used: Java, Python, TXL, Umple
+                            <br>
+                            Implemented and tested key concurrency features for the Python generation in Umple, a
+                            modeling tool and programming language created by a Professor at the University of Ottawa.
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">ChefSwipe</h5>
+                            Technologies Used: Android Studio, Firebase
+                            <br>
+                            ChefSwipe is an Android application for browsing recipes from an free online API. The UI
+                            allows the user to swipe through images and recipes and also save the recipes that they
+                            like.
                         </div>
                     </div>
                 </section>
             </div>
-            <div class="row">
-                <h1 id="contact">Contacts</h1>
+            <div class="row" id="contact">
+                <h1>Contact</h1>
                 <section>
+                    Feel free to connect with me!
+                    <br>
+                    <a class="contact-link" href="https://www.linkedin.com/in/fredwei2001/" target="_blank">
+                        <img class="contact-image" src="images/logos/LI-In-Bug.png" alt="LinkedIn">
+                        LinkedIn
+                    </a>
+                    <br>
+                    <a class="contact-link" href="https://github.com/FredWei-Git" target="_blank">
+                        <img class="contact-image" src="images/logos/github-mark-white.png" alt="GitHub">
+                        GitHub
+                    </a>
                 </section>
             </div>
         </div>

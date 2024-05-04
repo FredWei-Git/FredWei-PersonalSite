@@ -1,22 +1,22 @@
 body {
-    background-color: aquamarine;
+    background-color: #a2dda2;
 }
 
-main {
-    padding-top: 75px;
+.row {
+    padding: 100px;
 }
 
-/* Flexbox Layout */
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+#about-header {
+    text-align: center;
 }
 
-.flex-container > h1 {
-    padding-top: 100px;
+.contact-link {
+    outline: none;
+    text-decoration: none;
 }
 
-.flex-container > section{
-    justify-content: center;
+.contact-image {
+    padding: 10px;
+    width: 60px;
+    height: auto;
 }
